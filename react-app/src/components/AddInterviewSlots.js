@@ -50,7 +50,7 @@ function AddInterviewSlots() {
       endTime: formattedEndTime,
       createdBy,
     };
-      const response = await fetch('http://localhost:5000/api/schedule_interview', {
+      const response = await fetch('https://schedular-backend-xi.vercel.app/api/schedule_interview', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

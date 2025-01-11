@@ -25,7 +25,7 @@ function Registration() {
     setError('');
 
     try {
-      const response = await fetch('http://localhost:5000/api/registration', {
+      const response = await fetch('https://schedular-backend-xi.vercel.app/api/registration', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
